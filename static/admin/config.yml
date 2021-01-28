@@ -1,6 +1,5 @@
 backend:
   name: github
-  # change repo to your git repository url
   repo: danieleorlando/coding-with-cats
 
 media_folder: static/assets
