@@ -111,7 +111,8 @@ a {
 }
 .hero-header {
   padding: 0 0 64px;
-  max-width: 980px;
+  max-width: 100%;
+  display: flex;
 }
 .headline {
   font-size: 36px;
@@ -334,6 +335,16 @@ a {
     }
   }
 }
+.desc {
+  width: 70%
+}
+.avatar {
+  width: 30%  
+}
+.round-image {
+  border-radius: 50%;
+}
+
 /* Portrait and Landscape */
 @media only screen 
 and (min-width: 768px) {
